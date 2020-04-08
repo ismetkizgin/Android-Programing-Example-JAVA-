@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#00404040"
+        android:columnCount="3"
+        android:rowCount="1">
+
+        <ImageView
+            android:id="@+id/donutImeges"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:onClick="donutImegesClick"
+            app:srcCompat="@drawable/donut_circle" />
+
+        <ImageView
+            android:id="@+id/froyoImages"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:onClick="froyoImegesClick"
+            app:srcCompat="@drawable/froyo_circle" />
+
+        <ImageView
+            android:id="@+id/icecreamImages"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:onClick="icecreamImegesClick"
+            app:srcCompat="@drawable/icecream_circle" />
+
+    </GridLayout>
+
+</RelativeLayout>
