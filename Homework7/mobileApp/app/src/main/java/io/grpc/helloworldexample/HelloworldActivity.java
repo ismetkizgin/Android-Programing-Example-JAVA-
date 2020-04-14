@@ -111,12 +111,12 @@ public class HelloworldActivity extends AppCompatActivity {
 
         JSONObject jsonErrorMessage = new JSONObject();
         try {
-          jsonErrorMessage.put("message","not found");
+          jsonErrorMessage.put("message",String.format("Failed... : %n%s", sw));
         } catch (JSONException ex) {
           ex.printStackTrace();
         }
 
-        return new JSONObject((Map) jsonErrorMessage);
+        return jsonErrorMessage;
       }
     }
 
