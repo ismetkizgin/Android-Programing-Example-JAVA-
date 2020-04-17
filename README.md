@@ -1,2 +1,2 @@
-# Android-Programing-Example-JAVA-
+# Android Programing Example JAVA
 Mobile programing lesson application examples
